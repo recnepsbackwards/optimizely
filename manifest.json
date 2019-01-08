@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Optimizely",
+    "version": "1.0",
+    "description": "Optimizely",
+    "page_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*test=qa"
+        ],
+        "js": [
+          "jquery.js",
+          "content_script.js"
+        ]
+      }
+    ],
+    "permissions" : [
+        "tabs",
+        "http://*/*"
+            ]
+}
