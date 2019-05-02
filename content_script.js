@@ -8,3 +8,8 @@ $(document).ready(function(){
     console.log('('+experimentID+'):('+arr+')');
   })
 });
+
+
+Control: (14615650330):(14613280870)
+Challenger A: (14615650330):(14611390802)
+Challenger B: (14422680479):(14447380026)
